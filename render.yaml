@@ -10,27 +10,27 @@ services:
   branch: main
   envVars:
   - key: PORT
-    value: 6565
-  - key: USER
-    value: fxhxyz
-  - key: ID
-    value: 603173186
-  - key: CHANNEL
-    value: fxhxyz
-  - key: CLIENT_ID
-    value: client_id
-  - key: CLIENT_SECRET
-    value: client_secret
-  - key: OAUTH
-    value: oauth token
-  - key: PRIME
-    value: "false"
-  - key: DELAY
     value: 3000
+  - key: USER
+    value: awpsdrop
+  - key: ID
+    value: 1002474040
+  - key: CHANNEL
+    value: lqgs, awpsdrop
+  - key: CLIENT_ID
+    value: 0ugyt7963byt91c9i67dposq3f3oc2
+  - key: CLIENT_SECRET
+    value: 0ugyt7963byt91c9i67dposq3f3oc2
+  - key: OAUTH
+    value: 72iasr7soqx94pawobtue24pvak12h
+  - key: PRIME
+    value: "true"
+  - key: DELAY
+    value: 1
   - key: BASE_URI
-    value: http://localhost:6565
+    value: http://localhost:3000
   - key: REDIRECT_URI
-    value: http://localhost:6565/auth/twitch/callback
+    value: http://localhost:3000/auth/twitch/callback
   - key: AUTH_URI
     value: https://id.twitch.tv/oauth2
   - key: POST
